@@ -1,0 +1,35 @@
+/* 
+ * © Code 581
+ */
+
+.grow {
+    animation-name: enlarge;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    -webkit-animation-name: enlarge;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes enlarge {
+   0% { -webkit-transform: scale(1);} 
+   40% { -webkit-transform: translate(-21.166px, -24.795px) scale(1.15) ;}
+   60% { -webkit-transform: translate(56.44px, 66.122px) scale(0.6) ;}
+   70% { -webkit-transform: translate(-14.11px, -16.53px) scale(1.1) ;}
+   75% { -webkit-transform: translate(28.221px, 33.061px) scale(0.8);}
+   80% { -webkit-transform: translate(-7.055px, -8.265px) scale(1.05);}
+   85% { -webkit-transform: translate(7.055px, 8.265px) scale(0.95);}
+   90% { -webkit-transform: translate(0px, 0px) scale(1);}
+}
+
+@keyframes enlarge {
+   0% { transform: scale(1);} 
+   40% { transform: translate(-21.166px, -24.795px) scale(1.15) ;}
+   60% { transform: translate(56.44px, 66.122px) scale(0.6) ;}
+   70% { transform: translate(-14.11px, -16.53px) scale(1.1) ;}
+   75% { transform: translate(28.221px, 33.061px) scale(0.8);}
+   80% { transform: translate(-7.055px, -8.265px) scale(1.05);}
+   85% { transform: translate(7.055px, 8.265px) scale(0.95);}
+   90% { transform: translate(0px, 0px) scale(1);}
+}
+
