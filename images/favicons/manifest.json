@@ -12,7 +12,5 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#c9cacc",
-	"start_url": "www.code581.rs",
-	"display": "standalone"
+	"theme_color": "#b5b5b5"
 }

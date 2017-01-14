@@ -38,7 +38,7 @@ $(document).ready(function() {
  *                  PATH DRAWING
  *  
  ******************************************************************************/
-
+/*
 $(document).ready(function() {
     var distancePerPoint = 1;
     var drawFPS          = 200;
@@ -80,7 +80,7 @@ $(document).ready(function() {
     }
 
 });
-
+*/
 
 /*******************************************************************************
  * 
@@ -90,6 +90,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     $('#logo-svg').on("mouseover", function() {
+        
         $stop = $("#s201");
         $stop[0].beginElement();
         
@@ -99,6 +100,7 @@ $(document).ready(function() {
         $el.on('webkitAnimationEnd', function() {
             $el.removeClass("grow");
         });
+        
         /*
         el.addClass("grow");
         var newone = el.clone(true);

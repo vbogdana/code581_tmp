@@ -2,6 +2,22 @@
  * © Code 581
  */
 
+body {
+    background: black;
+}
+
+.col-sm-12 {
+    text-align: center;
+}
+
+a {
+  color: white;  
+}
+
+a:hover {
+    color: #b5b5b5;
+}
+
 .grow {
     animation-name: enlarge;
     animation-duration: 2s;
